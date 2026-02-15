@@ -9,7 +9,6 @@ end
 core.register_on_joinplayer(function(player)
 	player:set_physics_override({
 		upward_rejump = _upward_rejump,
-		loose_lips = _loose_lips,
-		new_move = not use_old_code
+		loose_lips = _loose_lips
 	})
 end)
