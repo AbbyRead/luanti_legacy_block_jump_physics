@@ -1,3 +1,3 @@
 #    Replaces the new player block jump physics with the old ones
 upward_rejump.use_old_code (Use legacy immediate re-jump behavior) bool false
-loose_lips.use_old_code (Use legacy step-up during upward movement) bool false
+upward_step.use_old_code (Use legacy step-up during upward movement) bool false
